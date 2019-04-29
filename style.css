@@ -32,13 +32,7 @@ header, footer {
     background-size: contain;
     border: black solid 5px;
 }
-span {
-    background-color: black;
-}
-.span {
-    margin-left: 6em;
-    background-color: black;
-}
+
 nav {
     position: relative;
     margin-top: 50px;
@@ -218,12 +212,12 @@ border-radius: 10px;*/
 #two {
   grid-column: 4/5;
   grid-row: 1/2;
-  min-width: 250px;
+  min-width: 230px;
 }
 #three {
   grid-column: 4/5;
   grid-row: 2/3;
-  min-width: 250px;
+  min-width: 230px;
 }
 #four {
   grid-column: 1/3;
