@@ -7,16 +7,12 @@ scroll-behavior: smooth;
 
 body {
     margin: 10px;
-    background-color: yellowgreen;
     /*
     letter-spacing: 0.03em;
     word-spacing: 0.1em;
     */
 }
-.div {
-    padding: 10px;
-    background-color: white;
-}
+
 header, footer {
     display: block;
   }
