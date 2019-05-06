@@ -37,7 +37,7 @@ nav {
     position: relative;
     margin-top: 50px;
 }
-.container {
+/* .container {
   width: 400px;
   height: 400px;
   margin: 200px auto;
@@ -91,7 +91,7 @@ background: black;
 @keyframes loop {
 0% { transform: rotateY(0); }
 100% { transform: rotateY(360deg); }
-}
+} */
 #message {
   resize: none;
   }
@@ -233,7 +233,7 @@ border-radius: 10px;*/
 .mainimage, #five img, #four img {
 display: block;
 width: 100%;
-border: solid red 5px;
+margin-top: 10px;
 }
 .firstsection {
   margin-bottom: 10px;
@@ -272,10 +272,4 @@ border: solid red 5px;
 .icon-facebook:before {
   content: "\e903";
   color: #3b5998;
-}
-@media (max-width: 600px) {
-  
-  max-width: 500px;
-  margin: auto;
-  border: 3px solid #73AD21;
 }
