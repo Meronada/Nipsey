@@ -9,8 +9,16 @@ header, section, footer {
     border: black solid 5px;
 }
 #header {
-  background-color: #f00;
+  background-color: black;
   height: 150px;
+}
+#header h1 {
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  line-height: 150px;
+  text-transform: uppercase;
+  text-shadow: 20px -15px 10px red;
 }
 .firstsection {
   margin-bottom: 10px;
@@ -73,7 +81,9 @@ p {
 }
 .icons-div {
   font-size: 100px;
-  position: relative;
+}
+.icons-div a {
+  text-decoration: none;
 }
 .icon-youtube:before {
   content: "\e900";
@@ -107,10 +117,10 @@ p {
 }
 ul {
     display: flex;
+    justify-content: center;
 }
 ul li {
     list-style: none;
-    border: red solid 1px;
 }
 ul li a {
     display: block;
@@ -223,3 +233,34 @@ scroll-behavior: smooth;
     /* background-image: url(hussle.jpg);
     background-size: 100% 100%;
     background-size: contain; */
+
+    @media only screen and (max-width: 600px) {
+      .fivearticles {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      #one {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-color: red;
+      }
+      #two {
+        grid-column: 1/2;
+        grid-row: 2/3;
+      }
+      #three {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        min-width: 230px;
+      }
+      #four {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        min-width: 100%;
+      }
+      #five {
+        grid-column: 1/2;
+        grid-row: 5/6;
+        min-width: 100%;
+      }
+    }
