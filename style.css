@@ -15,7 +15,7 @@ body {
 }
 .div {
     padding: 10px;
-    background-color: blueviolet;
+    background-color: white;
 }
 header, footer {
     display: block;
@@ -178,7 +178,6 @@ footer {
     font-size: 20px;
     margin-top: 10px;
     border: solid 5px black;
-    background-color: white;
 
 /*
     opacity: 0.5;
@@ -199,7 +198,8 @@ border-radius: 10px;*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
-  background-color: blue;
+  background-color: black;
+  border: solid black 5px;
 }
 #one, #two, #three, #four, #five {
   padding: 20px;
@@ -274,7 +274,8 @@ border: solid red 5px;
   color: #3b5998;
 }
 @media (max-width: 600px) {
-  .icons-div {
-    position: static;
-  }
+  
+  max-width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
 }
