@@ -118,9 +118,11 @@ ul {
     display: flex;
     justify-content: center;
 }
+
 ul li {
     list-style: none;
 }
+
 ul li a {
     display: block;
     padding: 10px 20px;
@@ -130,7 +132,9 @@ ul li a {
     color: black;
     font-weight: bold;
 }
-
+ul li a:hover {
+  background-color: whitesmoke;
+}
 
 
 
@@ -234,6 +238,16 @@ scroll-behavior: smooth;
     background-size: contain; */
 
     @media only screen and (max-width: 600px) {
+
+        #header h1 {
+        color: white;
+        font-size: 4em;
+        text-align: center;
+        line-height: 150px;
+        text-transform: uppercase;
+        text-shadow: 20px -15px 10px red;
+      }
+
       .fivearticles {
         display: grid;
         grid-template-columns: 1fr;
@@ -241,7 +255,7 @@ scroll-behavior: smooth;
       #one {
         grid-column: 1/2;
         grid-row: 1/2;
-        background-color: red;
+        background-color: antiquewhite;
       }
       #two {
         grid-column: 1/2;
