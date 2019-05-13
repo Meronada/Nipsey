@@ -9,7 +9,12 @@
   width: 300px;
   margin: 0 auto;
   margin-top: 164px;
-} 
+}
+.bd-example {
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+}  
 header, section, footer {
     display: block;
   }
